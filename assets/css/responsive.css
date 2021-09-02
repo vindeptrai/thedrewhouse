@@ -20,6 +20,8 @@
         width: 43.2% !important;
         margin: 30px 12.5px !important;
     }
+
+    
 }
 
 /* Mobile */
@@ -72,6 +74,11 @@
     .feature-collection-img {
         height: 250px;
     }
+
+    .feature-collection-title {
+        font-size: 13px;
+    }
+
 
     .about-form .title-form {
         font-size: 23px;
