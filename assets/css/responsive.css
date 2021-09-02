@@ -14,6 +14,14 @@
     }
 }
 
+/* iphone 6 */
+@media (max-width: 400px) {
+    .feature-collection-wrapper {
+        width: 43.2%;
+        margin: 30px 12.5px;
+    }
+}
+
 /* Mobile */
 @media (max-width: 740px) {
 
