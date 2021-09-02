@@ -1,0 +1,75 @@
+ /* PC */
+ @media (min-width: 1024px) {
+    
+}
+
+/* Tablet and Mobile */
+@media (max-width: 1023px) {}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .feature-collection-wrapper {
+        margin: 57px 20px 0;
+        width: calc(25% - 40px);
+    }
+}
+
+/* Mobile */
+@media (max-width: 740px) {
+
+    .nav-list {
+        margin-right: 0;
+    }
+
+    .nav-list .sign {
+        display: none;
+    }
+
+    .nav-list .menu-icon {
+        padding: 25px 16px;
+    }
+
+    .logo-drew {
+        z-index: 2;
+        height: 70px;
+        width: 107px;
+    }
+
+    #background-img .move-closet {
+        width: 100%;
+        bottom: 30px;
+    }
+
+    #background-img .closet-btn {
+        display: none;
+    }
+
+    #content .content-section {
+        padding-top: 70px;
+    }
+
+    #content .option-item  {
+        font-size: 16px;
+    }
+
+    #content .content-overlay {
+        padding: 0 25px;
+    }
+
+    .feature-collection-wrapper {
+        width: 44.2%;
+        margin: 30px 12px;
+    }
+
+    .feature-collection-img {
+        height: 250px;
+    }
+
+    .about-form .title-form {
+        font-size: 23px;
+    }
+    .team-drew-img {
+        width: 100%;
+        height: 400px;
+    }
+}

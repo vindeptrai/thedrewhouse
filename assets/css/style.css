@@ -1,0 +1,323 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+/* css dùng chung */
+
+
+#main {
+
+}
+
+#nav {
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #B42B51;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list {
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+.nav-list .sign {
+    background-color: #e3b548;
+    border-radius: 5px;
+    padding: 3px 5px;
+    cursor: pointer;
+}
+
+.nav-list .sign:hover {
+    background-color: #ccc;
+}
+
+.nav-list .menu-icon {
+    font-size: 25px;
+    padding: 25px 30px;
+}
+
+.nav-list .menu-icon:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.nav-item .bag-icon {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.nav-item .quantity-item {
+    background-color:#000;
+    border-radius: 50%;
+    color:#fff;
+    font-size: 10px;
+    line-height: 13px;
+    padding: 4px 7px;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 10px;
+    right: 32px;
+}
+
+.logo-drew {
+    z-index: 2;
+    height: 90px;
+    margin-top: 58px;
+    cursor: pointer;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 0 4px;
+}
+
+
+
+
+#background-img {
+    position: relative;
+    margin-top: 70px;
+    background-image: url(../img/Background/drew-team.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50%;
+}
+
+#background-img .move-closet {
+    
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 160px;
+}
+
+#background-img .closet-btn {
+    color: #000;
+    font-size: 13px;
+    padding: 9px 30.5px 9px 23px;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 13px;
+   
+    font-weight: 800;
+}
+
+#background-img .closet-btn:hover {
+    background-color: #111;
+    color: #fff;
+    transition: 0.6s;
+}
+
+
+#background-img .hand-icon {
+    margin-left: 13px;
+    font-size: 15px;
+}
+
+/* option closet */
+#content {
+    background-color: #F4DFD0;
+    
+}
+
+#content .content-section {
+    padding-top: 150px;
+    
+}
+#content .content-overlay {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5x;
+}
+
+#content .option-closet {
+   width: 600px;
+   max-width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+
+#content .option-item {
+    color: #000;
+    text-decoration: none;
+    font-size: 23px;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+#content .option-item:hover {
+    font-weight: 600;
+    color: #B42B51;
+}
+
+/* collection */
+
+.feature-collection {
+    display: flex;
+    /* justify-content: space-evenly; */
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.feature-collection-wrapper {
+    margin: 57px 40px 10px;
+    width: calc(25% - 80px);
+}
+
+.sold-out {
+    position: relative;
+}
+
+.feature-collection-block {
+    text-decoration: none;
+    color: #000;
+}
+.feature-collection-img {
+    width: 100%;
+    height: 300px;
+    border-radius: 1px;
+}
+
+.sold-out::after {
+    content: 'SOLD OUT';
+    position: absolute;
+    z-index: 1;
+    bottom: 90px;
+    left: 0;
+    width: 100%;
+    padding: 8px 0;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.feature-collection-img:hover {
+    opacity: 0.7;
+}
+
+.feature-collection-title {
+    font-size: 16px;
+    padding: 18px 0 22px;
+    font-weight: 800;
+}
+.feature-collection-desc {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    border-top: 1.5px solid #000;
+}
+
+/* footer about us */
+#about {
+    background-color: #F4DFD0;
+}
+
+#about .about-overlay {
+   padding: 160px 0 0;
+}
+
+.about-us {
+
+}
+
+.about-form {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.about-form .title-form {
+    font-size: 35px;
+    font-weight: 700;
+    padding: 15px 0px;
+}
+
+.about-form .sub-title-form {
+    font-size: 22px;
+    padding: 10px 0;
+    color: #B42B51;
+}
+
+.about-form .input-email {
+    font-size: 16px;
+    padding: 12px 14px;
+    margin-top: 5px;
+    border: 1px solid #B42B51;
+}
+
+.about-form .sub-btn {
+    padding: 12px 14px;
+    font-size: 16px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    cursor: pointer;
+    margin-left: -4px;
+}
+
+.about-form .sub-btn:hover {
+    background-color: #B42B51;
+    border: 1px solid #B42B51;
+    transition: 0.5s;
+}
+
+.about-form .sub-icon {
+    font-size: 13px;
+}
+
+.team-drew-img {
+    width: 100%;
+    height: 840px;
+}
+
+#footer {
+    background-color: #F4DFD0;
+    position: relative;
+}
+
+
+#footer .our-social {
+    padding: 30px 0;
+    text-align: center;
+}
+
+#footer .style-text-social {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#footer .insta {
+    text-decoration: none;
+    padding-left: 5px;
+    color:#B42B51;
+}
+
+#footer .copy-right {
+    padding: 0 5px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#footer .copy-right a {
+    color: #000;
+    text-decoration: none;
+}
+
